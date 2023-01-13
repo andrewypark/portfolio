@@ -1,4 +1,17 @@
-.App {
-  background-color: #FFF5E9;
-  text-align: center;
+@font-face {
+  font-family: dynamix;
+  src: url(./Fonts/Dynamix.ttf);
 }
+
+body {
+  display: flex;
+  background-color: #FFF5E9;
+  background-image: none;
+  font-family: dynamix;
+  text-decoration: none;
+}
+
+.App {
+
+}
+
