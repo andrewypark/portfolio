@@ -1,11 +1,12 @@
 import './App.css';
-import Header from './Components/Header';
-import Navbar from './Components/Navbar';
-import Hero from './Components/Hero';
-import Projects from './Components/Projects';
-import Footer from './Components/Footer';
+import Header from './Components/Header/Header';
+import Navbar from './Components/Navbar/Navbar';
+import Hero from './Components/Hero/Hero';
+import Projects from './Components/Projects/Projects';
+import Footer from './Components/Footer/Footer';
 
 function App() {
+
   return (
     <div className="App">
       <Header/>
