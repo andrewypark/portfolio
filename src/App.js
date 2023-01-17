@@ -1,4 +1,5 @@
 import './App.css';
+import Background from './Components/Background/Background';
 import Header from './Components/Header/Header';
 import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <div className="App">
+      <Background />
       <Header/>
       <Navbar/>
       <Hero/>

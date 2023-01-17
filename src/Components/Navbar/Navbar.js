@@ -4,9 +4,11 @@ import './Navbar.css';
 function Navbar() {
   return (
     <div>
-      <a href="#hero" className='logo'>"LOGO GOES HERE"</a>
-      <a href="#projects">"projects"</a>
-      <a href="#contact">"contact"</a>
+      <ul>
+        <li><a href="#hero" className='logo'>"LOGO GOES HERE"</a></li>
+        <li><a href="#projects">"projects"</a></li>
+        <li><a href="#contact">"contact"</a></li>
+      </ul>
       <button>Hire Me</button>
     </div>
   )
